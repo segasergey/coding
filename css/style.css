@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('/coding/lessons/lesson3/homework/fonts/GothamPro-Bold.woff2') format('woff2'),
-        url('/coding/lessons/lesson3/homework/fonts/GothamPro-Bold.woff') format('woff');
+    src: url('/coding/fonts/GothamPro-Bold.woff2') format('woff2'),
+        url('/coding/fonts/GothamPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -13,8 +13,8 @@
 
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('/coding/lessons/lesson3/homework/fonts/GothamPro-MediumItalic.woff2') format('woff2'),
-        url('/coding/lessons/lesson3/homework/fonts/GothamPro-MediumItalic.woff') format('woff');
+    src: url('/coding/fonts/GothamPro-MediumItalic.woff2') format('woff2'),
+        url('/coding/fonts/GothamPro-MediumItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
     font-display: swap;
@@ -22,8 +22,8 @@
 
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('/coding/lessons/lesson3/homework/fonts/GothamPro-LightItalic.woff2') format('woff2'),
-        url('/coding/lessons/lesson3/homework/fonts/GothamPro-LightItalic.woff') format('woff');
+    src: url('/coding/fonts/GothamPro-LightItalic.woff2') format('woff2'),
+        url('/coding/fonts/GothamPro-LightItalic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
     font-display: swap;
@@ -70,7 +70,7 @@ img {
 body {
     text-align: left;
     background: rgb(246, 167, 167);
-    background-image: url("/coding/lessons/lesson3/homework/img/2.jpeg");
+    background-image: url("/coding/img/2.jpeg");
 }
 
 header {
@@ -82,7 +82,7 @@ main {
     font-family: 'Radio Canada';
     margin: 200px;
     margin-top: 0;
-    background-image: url("/coding/lessons/lesson3/homework/img/6.jpeg")
+    background-image: url("/coding/img/6.jpeg")
 }
 
 h1 {
@@ -140,8 +140,6 @@ h2.chapter {
 
 p.phrase {
     font-family: 'Gotham Pro';
-    src: url('GothamPro-Bold.woff2') format('woff2'),
-        url('GothamPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
