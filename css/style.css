@@ -37,8 +37,8 @@
     border: 0;
 }
 
-li {
-    font-weight: 400:
+ul,li {
+    list-style: none;
 }
 
 a, 
@@ -108,12 +108,11 @@ h2 {
 }
 
 ul {
-    color: $fff
+    color: #4C3D35;
 }
 
 li {
     list-style: square inside;
-    align-content: right;
     text-decoration:overline;
     transform-style: unset;
     font-family: 'Water Brush';
@@ -223,7 +222,6 @@ p.author {
 }
 .p2 {
     align-content: flex-end;
-    font-style: 'arial', sans-serif;
     font-size: 3rem;
     text-decoration: line-through;
     text-decoration-color: #ff5500;
@@ -426,7 +424,7 @@ p.author {
 }
 
 .p40 {
-    text-combine-upright: 1px;
+    text-size: 100px;
 }
 
 .p41 {
